@@ -3,17 +3,40 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" type="text/css" href="./styles.css">
+    <link rel="stylesheet" type="text/css" href="./styles.css" />
+    <script src="https://kit.fontawesome.com/e94ff6aaef.js" crossorigin="anonymous"></script>
 
     <title>Review Carousel</title>
   </head>
   <body>
-    <section class ="titleContainer">
-        <h2>Our Reviews</h2>
-        <div class="underline"></div>
+    <section class="titleContainer">
+      <h2>Our Reviews</h2>
+      <div class="underline"></div>
     </section>
-   
-    <script src="./index.js"></script>
 
+    <article class="review">
+      <section class="imgContainer">
+        <img src="./person.jpeg" id="personImg" alt="" />
+      </section>
+      <h4 id="author">Sara Lopez</h4>
+      <p id="job">UX Designer</p>
+      <p id="info">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste, autem
+        tempore? Dolore, laudantium. Neque sequi magni expedita ex porro,
+        voluptatibus dolor earum nemo illum saepe maxime atque esse sunt
+        repudiandae?
+      </p>
+      <section class="buttonsContainer">
+<button class="prevButton">
+    <i class="fa-solid fa-angle-left"></i>
+</button>
+<button class="nextButton">
+    <i class="fa-solid fa-angle-right"></i>
+</button>
+      </section>
+      <button class="randomButton">Surprise me</button>
+    </article>
+
+    <script src="./index.js"></script>
   </body>
 </html>
