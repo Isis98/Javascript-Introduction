@@ -46,6 +46,16 @@ h2{
     font-size: 20px;
 }
 
+#info{
+    text-align: center;
+}
+
 .randomButton{
     margin: 15px 0px 0px;
+}
+
+p, h1,h2,h3,h4{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
