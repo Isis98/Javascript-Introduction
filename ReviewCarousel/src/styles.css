@@ -59,3 +59,13 @@ p, h1,h2,h3,h4{
     font-weight: 400;
     font-style: normal;
 }
+
+.prevButton{
+    background-color: transparent;
+    border: none;
+}
+
+.nextButton{
+    background-color: transparent;
+    border: none;
+}
