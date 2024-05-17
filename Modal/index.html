@@ -1,31 +1,35 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8"/>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-        <title>Modal</title>
-        <link rel="stylesheet" type="text/css" href="./styles.css"/>
-        <link
-        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-        rel="stylesheet"
-      />
-      <script
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Modal</title>
+    <link rel="stylesheet" type="text/css" href="./styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <script
       src="https://kit.fontawesome.com/e94ff6aaef.js"
       crossorigin="anonymous"
     ></script>
-    </head>
-    <body>
-        <header class="hero">
-            <section class="banner">
-                <h1>Modal Project</h1>
-                <button class="button modalButton">
-                    Open Modal
-                </button>
-            </section>
-            
-        </header>
-        
+  </head>
+  <body>
+    <header class="hero">
+      <section class="banner">
+        <h1>Modal Project</h1>
+        <button class="button modalButton">Open Modal</button>
+      </section>
+    </header>
+    <section class="modalOverlay">
+      <div class="modalContainer">
+        <h3>Modal Content</h3>
+        <button class="closeButton">
+          <i class="fa-solid fa-x"></i>
+        </button>
+      </div>
+    </section>
 
-        <script src="./index.js"></script>
-    </body>
+    <script src="./index.js"></script>
+  </body>
 </html>
