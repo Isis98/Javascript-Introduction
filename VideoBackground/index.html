@@ -1,1 +1,32 @@
 <!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Video</title>
+
+    <link rel="stylesheet" href="./styles.css" />
+    <script
+      src="https://kit.fontawesome.com/e94ff6aaef.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <section class="preloader">
+        <img src="./preloader.gif" alt="preloader">
+    </section>
+    <header>
+      <video class="videoContainer" muted autoplay loop>
+        <source src="./videoWaves.mp4" type="video/mp4" />
+      </video>
+      <h1>Video Project</h1>
+      <button class="switchButton">
+        <span> play </span>
+        <span> pause </span>
+        <span class="switch"></span>
+      </button>
+    </header>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
