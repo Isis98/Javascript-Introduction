@@ -1,0 +1,95 @@
+body{
+    margin: 0;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-image: url(./backgroundImage.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.navToggleButton {
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    cursor: pointer;
+    font-size: xx-large;
+    visibility: hidden;
+}
+
+.navCenter{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navHeader{
+    width: fit-content;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    column-gap: 80px;
+    align-items: center;
+    padding: 0;
+    font-size: x-large;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.linksContainer{
+    display: flex;
+    margin-right: 40px;
+}
+
+img{
+    width: 60px;
+    margin: 10px;
+    margin-left: 25px;
+
+}
+
+.banner{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+    place-content: center;
+    justify-items: center;
+    height: 100vh;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 600px;
+}
+
+.scrollLink.button{
+    border: white;
+    border-style: double;
+    padding: 10px;
+}
+
+p, h1,h2,h3,h4, a{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+}
+
+h1{
+    font-size: 100px;
+    margin: 0;
+}
